@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ques: 16 Write a code to insert an image </h2>
+    <h3>Ans :</h3>
+    <p>
+<h1> Hi My Name is Himanshi Gupta</h1>
+<img src="./green forest.jpg" alt="Nature" height="150px" width="150px">
+    </p>
+
+<h2>Ques: 17 Create a form contain input fields like name age email and contact</h2>
+<h3> Ans:</h3>
+<p>
+    <h1> Registeration pages</h1>
+    <form action="backend.php">
+        <label for="FirstName">FirstName:</label>
+        <input type="text" id="fName" name="fName" autocomplete="">
+
+        <br>
+        <br>
+        <label for="LastName">LastName:</label>
+        <input type="text" id="lName" name="lName" autocomplete="">
+        <br>
+        <br>
+        <label for="Email-id">Email-id</label>
+        <input type="text" id="Email-id" name="Email" placeholder="Email" autocomplete="">
+        <br>
+        <br>
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" placeholder="value of age" value="">
+           <br>
+        <br>
+        <label for="phoneNo"> Phone Number</label>
+        <input type="tel" id="phoneNo" name="phoneNo" maxlength="{10}" autocomplete=""><input type="submit" value="submit">
+     </form>
+</p>
+<h2>Ques: 18 Create a table and explain how to acheive colspan</h2>
+<h3> ANS:<pre> The rowspan and colspan are the attributes of <td> tag. These are used to specify the number of rows or columns a cell should merge. 
+    The rowspan attribute is for merging rows and the colspan attribute is for merging columns of the table in HTML.</pre>
+</h3>
+<p>
+    <table border="2">
+        <tr>
+            <th> Item</th>
+            <th> quality</th>
+            <th> Price</th>
+        </tr>
+        <tr>
+            <td>
+                Cpu
+            </td>
+            <td> hp</td>
+            <td>3400</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td> Dell</td>
+            <td>50000</td>
+        </tr>
+        <tr> 
+            <td rowspan="2"> Monitor</td>
+            <td> Apple</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>63400</td>
+        </tr>
+    </table>
+</p>
+<h2> Ques 19: Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and 
+    explain the difference between these two </h2>
+    <h3>Ans: The HTML Radio button is used to define the small circles, which are highlighted when selected. It is a form element which allows the users to select only one option from the given set of options.
+ It is created by the type attribute of the input element as shown in the following 
+ 
+ syntax:input type="radio" name ="Any_name"  
+        </h3>
+        <p>
+                <form>
+                     <h3>
+                <label for="FirstName">Name</label>
+            <input type="text"  id="Name" name="Name" autocomplete="">
+
+                <br>
+                <label for="Password">Password</label>
+                <input type="Password" id="Password" name="Password" placeholder="password">
+                
+                <br>
+                 <label for="Languge">Languge</label></h3><br>
+         <input type="radio" id="Languge" name="Languge" value="html"/>HTML<br>
+            <input type="radio" id="Languge" name="Languge" value="CSS"/>CSS<br>
+              <input type="radio" id="Languge" name="Languge" value="JS"/>JS <br><br>
+        <h3> <label for="gender">Gender</label></h3><br>
+                 <input type="checkbox" id="Male" name="Male" value="Male"/> 
+               <label for="Male">Male</label><br>
+             <input type="checkbox" id="Female" name="Female" value="Female"/>
+               <label for="Female">Female</label><br><br>
+               
+    <input type="submit" value="submit">
+    
+            
+                </form>
+            
+        </p>
+        
+
+</body>
+</html>
